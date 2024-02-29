@@ -1,0 +1,68 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Header styles */
+header {
+    background-color: #ddd;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Resources list styles */
+#resources-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Resource styles */
+article {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+article h2 {
+    margin-bottom: 10px;
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+article a {
+    color: #007bff;
+    text-decoration: none;
+}
